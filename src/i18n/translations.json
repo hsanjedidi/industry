@@ -1,0 +1,515 @@
+{
+  "fr": {
+    "dir": "ltr",
+    "nav": {
+      "home": "Accueil",
+      "about": "À propos",
+      "services": "Services",
+      "sectors": "Secteurs",
+      "products": "Produits",
+      "contact": "Contact",
+      "departments": "Départements",
+      "quote": "Demander un devis"
+    },
+    "hero": {
+      "tagline": "Société spécialisée en transformation d'élastomères",
+      "title": "Solutions anti-usure en multi-matériaux pour l'industrie",
+      "subtitle": "Fabrication, revêtement et rectification de rouleaux, cylindres et pièces techniques en polyuréthane, caoutchouc et silicone.",
+      "cta1": "Découvrir nos services",
+      "cta2": "Nous contacter",
+      "slide1": "Fabrication de précision",
+      "slide1Desc": "Rouleaux, cylindres, roues et galets sur mesure",
+      "slide2": "Revêtement d'élastomères",
+      "slide2Desc": "Caoutchouc, polyuréthane, silicone et plus encore",
+      "slide3": "Rectification & taillage",
+      "slide3Desc": "Une surface répondant à la plus grande gamme d'applications"
+    },
+    "marquee": ["Polyuréthane", "Caoutchouc", "Silicone", "Revêtement", "Rectification", "Fabrication", "Pièces techniques", "Anti-usure"],
+    "about": {
+      "badge": "À propos de nous",
+      "title": "Spécialiste des solutions anti-usure depuis 2005",
+      "p1": "Nous sommes une entreprise spécialisée dans la transformation des élastomères de polyuréthane compact et caoutchouc. Notre expertise couvre la fabrication, le revêtement, la rectification et la réparation de rouleaux industriels.",
+      "p2": "Nos techniciens et dessinateurs qualifiés vous proposent des solutions à la hauteur de vos attentes. Nous étudions et analysons de manière détaillée la faisabilité de chaque pièce.",
+      "features": [
+        { "title": "Bureau d'études", "desc": "Solutions techniques sur mesure par nos ingénieurs qualifiés" },
+        { "title": "Certifié ISO 9001", "desc": "Démarche qualité rigoureuse certifiée depuis 2005" },
+        { "title": "Multi-matériaux", "desc": "Polyuréthane, caoutchouc, silicone adaptés à chaque usage" },
+        { "title": "Sur mesure", "desc": "Fabrication à la demande selon vos plans et contraintes" }
+      ],
+      "stats": [
+        { "value": 3200, "suffix": "+", "label": "Projets réalisés" },
+        { "value": 20, "suffix": "", "label": "Années d'expérience" },
+        { "value": 500, "suffix": "+", "label": "Clients satisfaits" },
+        { "value": 50, "suffix": "+", "label": "Secteurs desservis" }
+      ]
+    },
+    "services": {
+      "badge": "Nos services",
+      "title": "Services et solutions",
+      "subtitle": "La qualité n'est pas une action, c'est notre habitude",
+      "items": [
+        { "title": "Fabrication", "desc": "Rouleaux, cylindres, roues et galets neufs sur mesure selon vos spécifications." },
+        { "title": "Revêtement", "desc": "Large gamme d'élastomères : caoutchouc, polyuréthane, silicone et plus." },
+        { "title": "Rectification & Taillage", "desc": "Obtention d'une surface répondant à la plus grande gamme d'applications." },
+        { "title": "Réparation", "desc": "Maintenance, nettoyage et réparation des rouleaux et cylindres existants." },
+        { "title": "Pièces techniques", "desc": "Fabrication sur mesure en polyuréthane, caoutchouc ou silicone." },
+        { "title": "Roues et galets", "desc": "Sur mesure pour tous types d'applications industrielles." }
+      ]
+    },
+    "materials": {
+      "badge": "Nos matériaux",
+      "title": "Une gamme complète d'élastomères",
+      "subtitle": "Adaptés à tous les secteurs industriels",
+      "items": [
+        { "title": "Polyuréthane", "desc": "Moulage des élastomères polyuréthane par coulée. Excellente résistance à l'abrasion et à l'usure." },
+        { "title": "Caoutchouc", "desc": "Moulage du caoutchouc industriel par compression. Résistance chimique et thermique." },
+        { "title": "Silicone", "desc": "Élastomères haute température pour applications spécifiques et exigentes." },
+        { "title": "Usinage", "desc": "Usinage conventionnel et numérique des aciers, métaux et plastiques techniques." },
+        { "title": "Chaudronnerie", "desc": "Chaudronnerie métallique pour supports, structures et pièces mécaniques." },
+        { "title": "Combinaisons", "desc": "Solutions multi-matériaux combinant plusieurs élastomères pour usages avancés." }
+      ]
+    },
+    "sectors": {
+      "badge": "Secteurs desservis",
+      "title": "Produits et solutions par secteur",
+      "subtitle": "Notre expertise s'adapte à chaque industrie",
+      "items": [
+        { "title": "Mines, sablières et carrières", "desc": "Solutions anti-usure pour convoyeurs, cribles et equipment de concassage." },
+        { "title": "Cimenteries et briqueteries", "desc": "Rouleaux et cylindres résistants aux environnements abrasifs et haute température." },
+        { "title": "Bâtiment et Travaux Publics", "desc": "Pièces techniques pour engins de chantier et équipements de construction." },
+        { "title": "Cartonnerie et Imprimerie", "desc": "Rouleaux d'impression et cylindres de précision pour presses offset." },
+        { "title": "Pétrole et Gaz", "desc": "Composants résistants aux hydrocarbures et conditions extrêmes." },
+        { "title": "Industries Agroalimentaires", "desc": "Élastomères alimentaires conformes aux normes d'hygiène les plus strictes." },
+        { "title": "Sous-traitance industrielle", "desc": "Fabrication à façon pour équipementiers et intégrateurs industriels." },
+        { "title": "Industries diverses", "desc": "Solutions personnalisées pour tout secteur nécessitant des pièces anti-usure." }
+      ]
+    },
+    "products": {
+      "badge": "Nos réalisations",
+      "title": "Notre galerie produits",
+      "subtitle": "La quantité se mesure, la qualité s'apprécie",
+      "filters": { "all": "Tout", "rollers": "Rouleaux", "wheels": "Roues & galets", "parts": "Pièces techniques", "coating": "Revêtement" },
+      "items": [
+        { "cat": "rollers", "title": "Rouleaux d'impression offset", "desc": "Rouleaux encreurs pour presses offset haute précision" },
+        { "cat": "rollers", "title": "Cylindres industriels", "desc": "Cylindres revêtus polyuréthane pour convoyeurs" },
+        { "cat": "wheels", "title": "Roues polyuréthane", "desc": "Roues de manutention haute résistance" },
+        { "cat": "wheels", "title": "Galets de guidage", "desc": "Galets en caoutchouc pour lignes de production" },
+        { "cat": "parts", "title": "Pièces techniques sur mesure", "desc": "Pièces usinées en polyuréthane compact" },
+        { "cat": "parts", "title": "Manchons & bagues", "desc": "Composants anti-usure pour équipements" },
+        { "cat": "coating", "title": "Revêtement caoutchouc", "desc": "Revêtement de cylindres en caoutchouc naturel" },
+        { "cat": "coating", "title": "Revêtement silicone", "desc": "Revêtement haute température pour applications spécifiques" }
+      ]
+    },
+    "testimonials": {
+      "badge": "Témoignages",
+      "title": "Ce que nos clients disent",
+      "items": [
+        { "name": "Mehdi Ben Salah", "role": "Directeur technique, Imprimerie Atlas", "quote": "La qualité des rouleaux est exceptionnelle. Leur expertise en polyuréthane a considérablement prolongé la durée de vie de nos presses." },
+        { "name": "Sophie Marchand", "role": "Responsable maintenance, Cimenterie du Nord", "quote": "Service réactif et produits fiables. Les revêtements anti-usure tiennent parfaitement dans nos environnements les plus exigeants." },
+        { "name": "Karim Trabelsi", "role": "Chef d'usine, Agroindustrie Méditerranée", "quote": "Des solutions sur mesure adaptées à nos contraintes alimentaires. Un partenaire de confiance depuis plus de 10 ans." }
+      ]
+    },
+    "partners": {
+      "badge": "Ils nous font confiance",
+      "title": "Nos clients et partenaires"
+    },
+    "departments": {
+      "badge": "Nos départements",
+      "title": "Une organisation industrielle complète",
+      "subtitle": "Chaque département est un maillon d'une chaîne qualité maîtrisée",
+      "items": [
+        { "title": "Stockage matière première", "desc": "Gestion et traçabilité des élastomères, résines et matériaux techniques. Conditions optimales de conservation." },
+        { "title": "Polyuréthane", "desc": "Atelier dédié au moulage par coulée du polyuréthane compact et cellulaire. Contrôle de dureté et densité." },
+        { "title": "Centre d'usinage", "desc": "Usinage conventionnel et CNC pour la fabrication de précision : tours, fraiseuses et équipements de production." },
+        { "title": "Méthodes", "desc": "Définition des process, gammes de fabrication et optimisation des flux. Pont entre le bureau d'études et l'atelier." },
+        { "title": "Contrôle qualité", "desc": "Inspection dimensionnelle, tests de dureté, contrôle d'adhérence et conformité aux spécifications clients." },
+        { "title": "Bureau d'études", "desc": "Conception, calculs et plans techniques. Étude de faisabilité et choix des matériaux pour chaque projet." },
+        { "title": "Parc machines conventionnel", "desc": "Tours, fraiseuses, rectifieuses et équipements traditionnels entretenus pour un usinage de qualité." },
+        { "title": "Rectification", "desc": "Rectification cylindrique et plane pour l'obtention de surfaces de précision et finitions haute qualité." }
+      ]
+    },
+    "contact": {
+      "badge": "Contactez-nous",
+      "title": "Parlons de votre projet",
+      "subtitle": "Notre équipe vous répond sous 24 heures",
+      "form": {
+        "name": "Nom complet",
+        "namePh": "Votre nom",
+        "email": "Adresse email",
+        "emailPh": "vous@exemple.com",
+        "phone": "Téléphone",
+        "phonePh": "+216 XX XXX XXX",
+        "subject": "Sujet",
+        "subjectPh": "Objet de votre demande",
+        "message": "Message",
+        "messagePh": "Décrivez votre besoin...",
+        "send": "Envoyer le message",
+        "sending": "Envoi en cours...",
+        "success": "Message envoyé avec succès ! Nous vous répondrons rapidement.",
+        "error": "Une erreur est survenue. Veuillez réessayer ou nous contacter par téléphone."
+      },
+      "info": {
+        "address": "Adresse",
+        "addressVal": "Zone Industrielle, Sousse, Tunisie",
+        "phone": "Téléphone",
+        "phoneVal1": "+216 73 320 533",
+        "phoneVal2": "+216 28 414 111",
+        "email": "Email",
+        "emailVal": "contact@elastomers-tech.com",
+        "hours": "Horaires",
+        "hoursVal": "Lun - Sam : 8h00 - 17h00"
+      }
+    },
+    "footer": {
+      "desc": "Spécialiste des solutions anti-usure en multi-matériaux pour tous secteurs industriels.",
+      "links": "Liens rapides",
+      "services": "Services",
+      "sectors": "Secteurs",
+      "contact": "Contact",
+      "rights": "Tous droits réservés.",
+      "certified": "Certifié ISO 9001"
+    }
+  },
+  "en": {
+    "dir": "ltr",
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "services": "Services",
+      "sectors": "Sectors",
+      "products": "Products",
+      "contact": "Contact",
+      "departments": "Departments",
+      "quote": "Request a quote"
+    },
+    "hero": {
+      "tagline": "Specialized in elastomer processing",
+      "title": "Anti-wear multi-material solutions for industry",
+      "subtitle": "Manufacturing, coating and grinding of rollers, cylinders and technical parts in polyurethane, rubber and silicone.",
+      "cta1": "Discover our services",
+      "cta2": "Contact us",
+      "slide1": "Precision manufacturing",
+      "slide1Desc": "Custom rollers, cylinders, wheels and guides",
+      "slide2": "Elastomer coating",
+      "slide2Desc": "Rubber, polyurethane, silicone and more",
+      "slide3": "Grinding & grooving",
+      "slide3Desc": "A surface meeting the widest range of applications"
+    },
+    "marquee": ["Polyurethane", "Rubber", "Silicone", "Coating", "Grinding", "Manufacturing", "Technical parts", "Anti-wear"],
+    "about": {
+      "badge": "About us",
+      "title": "Anti-wear solutions specialist since 2005",
+      "p1": "We are a company specialized in processing compact polyurethane and rubber elastomers. Our expertise covers manufacturing, coating, grinding and repairing industrial rollers.",
+      "p2": "Our qualified technicians and draftsmen offer solutions that meet your expectations. We study and analyze in detail the feasibility of each part.",
+      "features": [
+        { "title": "Engineering office", "desc": "Custom technical solutions by our qualified engineers" },
+        { "title": "ISO 9001 Certified", "desc": "Rigorous quality process certified since 2005" },
+        { "title": "Multi-material", "desc": "Polyurethane, rubber, silicone adapted to each use" },
+        { "title": "Custom-made", "desc": "On-demand manufacturing to your plans and constraints" }
+      ],
+      "stats": [
+        { "value": 3200, "suffix": "+", "label": "Projects completed" },
+        { "value": 20, "suffix": "", "label": "Years of experience" },
+        { "value": 500, "suffix": "+", "label": "Satisfied clients" },
+        { "value": 50, "suffix": "+", "label": "Sectors served" }
+      ]
+    },
+    "services": {
+      "badge": "Our services",
+      "title": "Services and solutions",
+      "subtitle": "Quality is not an action, it is our habit",
+      "items": [
+        { "title": "Manufacturing", "desc": "New custom rollers, cylinders, wheels and guides to your specifications." },
+        { "title": "Coating", "desc": "Wide range of elastomers: rubber, polyurethane, silicone and more." },
+        { "title": "Grinding & Grooving", "desc": "Achieving a surface meeting the widest range of applications." },
+        { "title": "Repair", "desc": "Maintenance, cleaning and repair of existing rollers and cylinders." },
+        { "title": "Technical parts", "desc": "Custom manufacturing in polyurethane, rubber or silicone." },
+        { "title": "Wheels and guides", "desc": "Custom-made for all types of industrial applications." }
+      ]
+    },
+    "materials": {
+      "badge": "Our materials",
+      "title": "A complete range of elastomers",
+      "subtitle": "Adapted to all industrial sectors",
+      "items": [
+        { "title": "Polyurethane", "desc": "Cast polyurethane elastomer molding. Excellent abrasion and wear resistance." },
+        { "title": "Rubber", "desc": "Industrial rubber compression molding. Chemical and thermal resistance." },
+        { "title": "Silicone", "desc": "High-temperature elastomers for specific and demanding applications." },
+        { "title": "Machining", "desc": "Conventional and CNC machining of steels, metals and technical plastics." },
+        { "title": "Boilermaking", "desc": "Metal boilermaking for supports, structures and mechanical parts." },
+        { "title": "Combinations", "desc": "Multi-material solutions combining several elastomers for advanced uses." }
+      ]
+    },
+    "sectors": {
+      "badge": "Sectors served",
+      "title": "Products and solutions by sector",
+      "subtitle": "Our expertise adapts to every industry",
+      "items": [
+        { "title": "Mines, quarries and sand pits", "desc": "Anti-wear solutions for conveyors, screens and crushing equipment." },
+        { "title": "Cement and brick factories", "desc": "Rollers and cylinders resistant to abrasive and high-temperature environments." },
+        { "title": "Construction and public works", "desc": "Technical parts for construction machinery and equipment." },
+        { "title": "Cardboard and printing", "desc": "Printing rollers and precision cylinders for offset presses." },
+        { "title": "Oil and gas", "desc": "Hydrocarbon-resistant components for extreme conditions." },
+        { "title": "Food industries", "desc": "Food-grade elastomers meeting the strictest hygiene standards." },
+        { "title": "Industrial subcontracting", "desc": "Contract manufacturing for equipment manufacturers and integrators." },
+        { "title": "Various industries", "desc": "Custom solutions for any sector requiring anti-wear parts." }
+      ]
+    },
+    "products": {
+      "badge": "Our work",
+      "title": "Our product gallery",
+      "subtitle": "Quantity is measured, quality is appreciated",
+      "filters": { "all": "All", "rollers": "Rollers", "wheels": "Wheels & guides", "parts": "Technical parts", "coating": "Coating" },
+      "items": [
+        { "cat": "rollers", "title": "Offset printing rollers", "desc": "Ink rollers for high-precision offset presses" },
+        { "cat": "rollers", "title": "Industrial cylinders", "desc": "Polyurethane-coated cylinders for conveyors" },
+        { "cat": "wheels", "title": "Polyurethane wheels", "desc": "High-strength handling wheels" },
+        { "cat": "wheels", "title": "Guide rollers", "desc": "Rubber rollers for production lines" },
+        { "cat": "parts", "title": "Custom technical parts", "desc": "Machined parts in compact polyurethane" },
+        { "cat": "parts", "title": "Sleeves & bushings", "desc": "Anti-wear components for equipment" },
+        { "cat": "coating", "title": "Rubber coating", "desc": "Natural rubber cylinder coating" },
+        { "cat": "coating", "title": "Silicone coating", "desc": "High-temperature coating for specific applications" }
+      ]
+    },
+    "testimonials": {
+      "badge": "Testimonials",
+      "title": "What our clients say",
+      "items": [
+        { "name": "Mehdi Ben Salah", "role": "Technical Director, Atlas Printing", "quote": "The quality of the rollers is exceptional. Their polyurethane expertise has significantly extended the life of our presses." },
+        { "name": "Sophie Marchand", "role": "Maintenance Manager, Northern Cement", "quote": "Responsive service and reliable products. Anti-wear coatings hold up perfectly in our most demanding environments." },
+        { "name": "Karim Trabelsi", "role": "Plant Manager, Mediterranean Agro-industry", "quote": "Custom solutions adapted to our food constraints. A trusted partner for over 10 years." }
+      ]
+    },
+    "partners": {
+      "badge": "They trust us",
+      "title": "Our clients and partners"
+    },
+    "departments": {
+      "badge": "Our departments",
+      "title": "A complete industrial organization",
+      "subtitle": "Each department is a link in a mastered quality chain",
+      "items": [
+        { "title": "Raw material storage", "desc": "Management and traceability of elastomers, resins and technical materials. Optimal storage conditions." },
+        { "title": "Polyurethane", "desc": "Workshop dedicated to cast molding of compact and cellular polyurethane. Hardness and density control." },
+        { "title": "Machining center", "desc": "Conventional and CNC machining for precision manufacturing: lathes, milling machines and production equipment." },
+        { "title": "Methods", "desc": "Process definition, manufacturing routes and flow optimization. Bridge between engineering and workshop." },
+        { "title": "Quality control", "desc": "Dimensional inspection, hardness tests, adhesion control and compliance with customer specifications." },
+        { "title": "Engineering office", "desc": "Design, calculations and technical drawings. Feasibility study and material selection for each project." },
+        { "title": "Conventional machine park", "desc": "Lathes, milling machines, grinders and traditional equipment maintained for quality machining." },
+        { "title": "Grinding", "desc": "Cylindrical and surface grinding for precision surfaces and high-quality finishes." }
+      ]
+    },
+    "contact": {
+      "badge": "Contact us",
+      "title": "Let's talk about your project",
+      "subtitle": "Our team responds within 24 hours",
+      "form": {
+        "name": "Full name",
+        "namePh": "Your name",
+        "email": "Email address",
+        "emailPh": "you@example.com",
+        "phone": "Phone",
+        "phonePh": "+216 XX XXX XXX",
+        "subject": "Subject",
+        "subjectPh": "Subject of your request",
+        "message": "Message",
+        "messagePh": "Describe your needs...",
+        "send": "Send message",
+        "sending": "Sending...",
+        "success": "Message sent successfully! We will respond shortly.",
+        "error": "An error occurred. Please try again or contact us by phone."
+      },
+      "info": {
+        "address": "Address",
+        "addressVal": "Industrial Zone, Sousse, Tunisia",
+        "phone": "Phone",
+        "phoneVal1": "+216 73 320 533",
+        "phoneVal2": "+216 28 414 111",
+        "email": "Email",
+        "emailVal": "contact@elastomers-tech.com",
+        "hours": "Hours",
+        "hoursVal": "Mon - Sat: 8:00 AM - 5:00 PM"
+      }
+    },
+    "footer": {
+      "desc": "Specialist in anti-wear multi-material solutions for all industrial sectors.",
+      "links": "Quick links",
+      "services": "Services",
+      "sectors": "Sectors",
+      "contact": "Contact",
+      "rights": "All rights reserved.",
+      "certified": "ISO 9001 Certified"
+    }
+  },
+  "ar": {
+    "dir": "rtl",
+    "nav": {
+      "home": "الرئيسية",
+      "about": "من نحن",
+      "services": "الخدمات",
+      "sectors": "القطاعات",
+      "products": "المنتجات",
+      "contact": "اتصل بنا",
+      "departments": "الأقسام",
+      "quote": "طلب عرض سعر"
+    },
+    "hero": {
+      "tagline": "شركة متخصصة في تحويل المطاطات المرنة",
+      "title": "حلول مضادة للاهتراء بمواد متعددة للصناعة",
+      "subtitle": "تصنيع وطلاء وتسوية الأسطوانات والكباسات والقطع التقنية من البولي يوريثان والمطاط والسيليكون.",
+      "cta1": "اكتشف خدماتنا",
+      "cta2": "اتصل بنا",
+      "slide1": "تصنيع دقيق",
+      "slide1Desc": "أسطوانات وكباسات وعجلات بأبعاد مخصصة",
+      "slide2": "طلاء بالمطاطات المرنة",
+      "slide2Desc": "مطاط وبولي يوريثان وسيليكون والمزيد",
+      "slide3": "تسوية وتحزيز",
+      "slide3Desc": "سطح يلبي أوسع مجموعة من التطبيقات"
+    },
+    "marquee": ["البولي يوريثان", "المطاط", "السيليكون", "الطلاء", "التسوية", "التصنيع", "قطع تقنية", "مضاد للاهتراء"],
+    "about": {
+      "badge": "من نحن",
+      "title": "متخصصون في حلول مكافحة الاهتراء منذ 2005",
+      "p1": "نحن شركة متخصصة في تحويل مطاطات البولي يوريثان المدمج والمطاط. تشمل خبرتنا تصنيع وطلاء وتسوية وإصلاح الأسطوانات الصناعية.",
+      "p2": "يقدم لكم فنيونا ورسامونا المؤهلون حلولاً ترقى إلى مستوى توقعاتكم. ندرس ونحلل بالتفصيل جدوى كل قطعة.",
+      "features": [
+        { "title": "مكتب دراسات", "desc": "حلول تقنية مخصصة من مهندسينا المؤهلين" },
+        { "title": "معتمد ISO 9001", "desc": "عملية جودة صارمة معتمدة منذ 2005" },
+        { "title": "مواد متعددة", "desc": "بولي يوريثان ومطاط وسيليكون لكل استخدام" },
+        { "title": "حسب الطلب", "desc": "تصنيع عند الطلب وفق خططك وقيودك" }
+      ],
+      "stats": [
+        { "value": 3200, "suffix": "+", "label": "مشروع منجز" },
+        { "value": 20, "suffix": "", "label": "سنة خبرة" },
+        { "value": 500, "suffix": "+", "label": "عميل راضٍ" },
+        { "value": 50, "suffix": "+", "label": "قطاع مخدوم" }
+      ]
+    },
+    "services": {
+      "badge": "خدماتنا",
+      "title": "الخدمات والحلول",
+      "subtitle": "الجودة ليست عملاً، بل عادتنا",
+      "items": [
+        { "title": "تصنيع", "desc": "أسطوانات وكباسات وعجلات وأدلة جديدة حسب الطلب ومواصفاتكم." },
+        { "title": "طلاء", "desc": "مجموعة واسعة من المطاطات: مطاط وبولي يوريثان وسيليكون والمزيد." },
+        { "title": "تسوية وتحزيز", "desc": "الحصول على سطح يلبي أوسع مجموعة من التطبيقات." },
+        { "title": "إصلاح", "desc": "صيانة وتنظيف وإصلاح الأسطوانات والكباسات الموجودة." },
+        { "title": "قطع تقنية", "desc": "تصنيع حسب الطلب بالبولي يوريثان أو المطاط أو السيليكون." },
+        { "title": "عجلات وأدلة", "desc": "حسب الطلب لجميع أنواع التطبيقات الصناعية." }
+      ]
+    },
+    "materials": {
+      "badge": "موادنا",
+      "title": "مجموعة كاملة من المطاطات المرنة",
+      "subtitle": "مكيفة لجميع القطاعات الصناعية",
+      "items": [
+        { "title": "البولي يوريثان", "desc": "قولبة مطاطات البولي يوريثان بالصب. مقاومة ممتازة للاهتراء والاحتكاك." },
+        { "title": "المطاط", "desc": "قولبة المطاط الصناعي بالضغط. مقاومة كيميائية وحرارية." },
+        { "title": "السيليكون", "desc": "مطاطات عالية الحرارة لتطبيقات محددة وم demandingة." },
+        { "title": "تشغيل", "desc": "تشغيل تقليدي ورقمي للفولاذ والمعادن والبلاستيك التقني." },
+        { "title": "الصفيح المعدني", "desc": "صفيح معدني للدعامات والهياكل والقطع الميكانيكية." },
+        { "title": "تركيبات", "desc": "حلول متعددة المواد تجمع عدة مطاطات لاستخدامات متقدمة." }
+      ]
+    },
+    "sectors": {
+      "badge": "القطاعات المخدومة",
+      "title": "المنتجات والحلول حسب القطاع",
+      "subtitle": "خبرتنا تتكيف مع كل صناعة",
+      "items": [
+        { "title": "المناجم والمحاجر ورمال", "desc": "حلول مضادة للاهتراء للناقلات والمناخل ومعدات التكسير." },
+        { "title": "مصانع الإسمنت والطوب", "desc": "أسطوانات وكباسات مقاومة للبيئات الكاشطة ودرجات الحرارة العالية." },
+        { "title": "البناء والأشغال العامة", "desc": "قطع تقنية لمعدات البناء والآليات." },
+        { "title": "الكرتون والطباعة", "desc": "أسطوانات طباعة وكباسات دقيقة لمطابع الأوفست." },
+        { "title": "النفط والغاز", "desc": "مكونات مقاومة للهيدروكربونات والظروف القاسية." },
+        { "title": "الصناعات الغذائية", "desc": "مطاطات غذائية تلبي أصرم معايير النظافة." },
+        { "title": "التصنيع بالوكالة", "desc": "تصنيع بالعقد لمصنعي المعدات والمكاملين الصناعيين." },
+        { "title": "صناعات متنوعة", "desc": "حلول مخصصة لأي قطاع يحتاج قطعاً مضادة للاهتراء." }
+      ]
+    },
+    "products": {
+      "badge": "إنجازاتنا",
+      "title": "معرض منتجاتنا",
+      "subtitle": "الكمية تُقاس والجودة تُقدّر",
+      "filters": { "all": "الكل", "rollers": "أسطوانات", "wheels": "عجلات وأدلة", "parts": "قطع تقنية", "coating": "طلاء" },
+      "items": [
+        { "cat": "rollers", "title": "أسطوانات طباعة أوفست", "desc": "أسطوانات حبر لمطابع أوفست عالية الدقة" },
+        { "cat": "rollers", "title": "كباسات صناعية", "desc": "كباسات مطلية بالبولي يوريثان للناقلات" },
+        { "cat": "wheels", "title": "عجلات بولي يوريثان", "desc": "عجلات مناولة عالية المقاومة" },
+        { "cat": "wheels", "title": "أدلة توجيه", "desc": "أدلة مطاطية لخطوط الإنتاج" },
+        { "cat": "parts", "title": "قطع تقنية مخصصة", "desc": "قطع مشغولة بالبولي يوريثان المدمج" },
+        { "cat": "parts", "title": "أكمام وبطانات", "desc": "مكونات مضادة للاهتراء للمعدات" },
+        { "cat": "coating", "title": "طلاء مطاطي", "desc": "طلاء أسطوانات بالمطاط الطبيعي" },
+        { "cat": "coating", "title": "طلاء سيليكون", "desc": "طلاء عالي الحرارة لتطبيقات محددة" }
+      ]
+    },
+    "testimonials": {
+      "badge": "شهادات",
+      "title": "ماذا يقول عملاؤنا",
+      "items": [
+        { "name": "مهدي بن صالح", "role": "مدير تقني، مطبعة أطلس", "quote": "جودة الأسطوانات استثنائية. خبرتهم في البولي يوريثان مددت بشكل كبير عمر مطابعنا." },
+        { "name": "صوفي مارشان", "role": "مسؤولة صيانة، إسمنت الشمال", "quote": "خدمة سريعة ومنتجات موثوقة. الطلاءات المضادة للاهتراء تصمد بشكل مثالي في أكثر بيئاتنا تطلباً." },
+        { "name": "كريم التربلسي", "role": "مدير مصنع، الصناعة الغذائية المتوسطية", "quote": "حلول مخصصة تتكيف مع قيودنا الغذائية. شريك موثوق منذ أكثر من 10 سنوات." }
+      ]
+    },
+    "partners": {
+      "badge": "يثقون بنا",
+      "title": "عملاؤنا وشركاؤنا"
+    },
+    "departments": {
+      "badge": "أقسامنا",
+      "title": "تنظيم صناعي متكامل",
+      "subtitle": "كل قسم حلقة في سلسلة جودة متقنة",
+      "items": [
+        { "title": "تخزين المواد الأولية", "desc": "إدارة وتتبع المطاطات والراتنجات والمواد التقنية. ظروف تخزين مثالية." },
+        { "title": "البولي يوريثان", "desc": "ورشة مخصصة لقولبة البولي يوريثان المدمج والخلوي بالصب. مراقبة الصلابة والكثافة." },
+        { "title": "مركز التشغيل", "desc": "تشغيل تقليدي ورقمي للتصنيع الدقيق: مخارط، فريزات ومعدات إنتاج." },
+        { "title": "الطرائق", "desc": "تحديد العمليات ومسارات التصنيع وتحسين التدفقات. جسر بين مكتب الدراسات والورشة." },
+        { "title": "مراقبة الجودة", "desc": "فحص أبعادي، اختبارات الصلابة، مراقبة الالتصاق ومطابقة مواصفات العملاء." },
+        { "title": "مكتب الدراسات", "desc": "تصميم وحسابات ورسومات تقنية. دراسة الجدوى واختيار المواد لكل مشروع." },
+        { "title": "منتزه الآلات التقليدية", "desc": "مخارط، فريزات، مراجع ومعدات تقليدية مصانة لتشغيل عالي الجودة." },
+        { "title": "التحزيز (الراكتيفيكاسيون)", "desc": "تحزيز أسطواني ومساحي لأسطح دقيقة وتشطيبات عالية الجودة." }
+      ]
+    },
+    "contact": {
+      "badge": "اتصل بنا",
+      "title": "لنتحدث عن مشروعك",
+      "subtitle": "فريقنا يرد عليك خلال 24 ساعة",
+      "form": {
+        "name": "الاسم الكامل",
+        "namePh": "اسمك",
+        "email": "البريد الإلكتروني",
+        "emailPh": "you@example.com",
+        "phone": "الهاتف",
+        "phonePh": "+216 XX XXX XXX",
+        "subject": "الموضوع",
+        "subjectPh": "موضوع طلبك",
+        "message": "الرسالة",
+        "messagePh": "صف احتياجاتك...",
+        "send": "إرسال الرسالة",
+        "sending": "جارٍ الإرسال...",
+        "success": "تم إرسال الرسالة بنجاح! سنرد عليك قريباً.",
+        "error": "حدث خطأ. يرجى المحاولة مرة أخرى أو الاتصال بنا هاتفياً."
+      },
+      "info": {
+        "address": "العنوان",
+        "addressVal": "المنطقة الصناعية، سوسة، تونس",
+        "phone": "الهاتف",
+        "phoneVal1": "+216 73 320 533",
+        "phoneVal2": "+216 28 414 111",
+        "email": "البريد",
+        "emailVal": "contact@elastomers-tech.com",
+        "hours": "ساعات العمل",
+        "hoursVal": "الإثنين - السبت: 8:00 - 17:00"
+      }
+    },
+    "footer": {
+      "desc": "متخصصون في حلول مضادة للاهتراء بمواد متعددة لجميع القطاعات الصناعية.",
+      "links": "روابط سريعة",
+      "services": "الخدمات",
+      "sectors": "القطاعات",
+      "contact": "اتصال",
+      "rights": "جميع الحقوق محفوظة.",
+      "certified": "معتمد ISO 9001"
+    }
+  }
+}
