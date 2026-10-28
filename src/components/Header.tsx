@@ -1,7 +1,7 @@
-import { useEffect, useState } from 'react';
-import { Link, useLocation, useNavigate } from 'react-router-dom';
-import { Menu, X, Phone, Globe } from 'lucide-react';
-import { useI18n, type Lang } from '@/i18n/I18nContext';
+import { useEffect, useState } from "react";
+import { Link, useLocation, useNavigate } from "react-router-dom";
+import { Menu, X, Phone, Globe } from "lucide-react";
+import { useI18n, type Lang } from "@/i18n/I18nContext";
 
 export default function Header() {
   const { t, lang, setLang, dir } = useI18n();
@@ -11,13 +11,13 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [langOpen, setLangOpen] = useState(false);
 
-  const isHome = location.pathname === '/';
+  const isHome = location.pathname === "/";
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40);
-    window.addEventListener('scroll', onScroll);
+    window.addEventListener("scroll", onScroll);
     onScroll();
-    return () => window.removeEventListener('scroll', onScroll);
+    return () => window.removeEventListener("scroll", onScroll);
   }, [location.pathname]);
 
   useEffect(() => {
@@ -25,19 +25,19 @@ export default function Header() {
   }, [location.pathname]);
 
   const navLinks: { to: string; label: string }[] = [
-    { to: '/', label: t.nav.home },
-    { to: '/about', label: t.nav.about },
-    { to: '/services', label: t.nav.services },
-    { to: '/sectors', label: t.nav.sectors },
-    { to: '/products', label: t.nav.products },
-    { to: '/departments', label: t.nav.departments },
-    { to: '/contact', label: t.nav.contact },
+    { to: "/", label: t.nav.home },
+    { to: "/about", label: t.nav.about },
+    { to: "/services", label: t.nav.services },
+    { to: "/sectors", label: t.nav.sectors },
+    { to: "/products", label: t.nav.products },
+    { to: "/departments", label: t.nav.departments },
+    { to: "/contact", label: t.nav.contact },
   ];
 
   const langs: { code: Lang; label: string; flag: string }[] = [
-    { code: 'fr', label: 'Français', flag: 'FR' },
-    { code: 'en', label: 'English', flag: 'EN' },
-    { code: 'ar', label: 'العربية', flag: 'AR' },
+    { code: "fr", label: "Français", flag: "FR" },
+    { code: "en", label: "English", flag: "EN" },
+    { code: "ar", label: "العربية", flag: "AR" },
   ];
 
   const solid = scrolled || !isHome;
@@ -45,26 +45,26 @@ export default function Header() {
   return (
     <header
       className={`fixed top-0 inset-x-0 z-50 transition-all duration-500 ${
-        solid ? 'bg-white/95 backdrop-blur-md shadow-lg shadow-steel-900/5' : 'bg-transparent'
+        solid
+          ? "bg-white/95 backdrop-blur-md shadow-lg shadow-steel-900/5"
+          : "bg-transparent"
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3 group">
-            <div className="relative w-11 h-11 rounded-xl bg-gradient-to-br from-primary-600 to-primary-800 flex items-center justify-center shadow-lg shadow-primary-900/30 group-hover:scale-105 transition-transform">
-              <svg viewBox="0 0 24 24" className="w-7 h-7 text-white" fill="none" stroke="currentColor" strokeWidth="2">
-                <circle cx="12" cy="12" r="8" />
-                <circle cx="12" cy="12" r="3" fill="currentColor" />
-              </svg>
-            </div>
-            <div className="text-start">
-              <div className={`font-display font-bold text-lg leading-tight ${solid ? 'text-steel-900' : 'text-white'}`}>
-                ELASTO<span className="text-accent-500">TECH</span>
+            <div className="flex items-center gap-3 group">
+              {/* Logo image */}
+              <div className="relative w-16 h-16 shrink-0 overflow-hidden rounded-xl shadow-lg shadow-primary-900/20 group-hover:scale-105 transition-transform">
+                <img
+                  src="/logo.png"
+                  alt="ELASTOTECH Logo"
+                  className="w-full h-full object-contain"
+                />
               </div>
-              <div className={`text-[10px] font-medium tracking-wider uppercase ${solid ? 'text-steel-500' : 'text-white/70'}`}>
-                Elastomers Solutions
-              </div>
+
+              {/* Brand name */}
             </div>
           </Link>
 
@@ -79,11 +79,11 @@ export default function Header() {
                   className={`px-4 py-2 text-sm font-medium rounded-lg transition-colors ${
                     solid
                       ? active
-                        ? 'text-primary-600 bg-primary-50'
-                        : 'text-steel-700 hover:text-primary-600 hover:bg-primary-50'
+                        ? "text-primary-600 bg-primary-50"
+                        : "text-steel-700 hover:text-primary-600 hover:bg-primary-50"
                       : active
-                        ? 'text-white bg-white/15'
-                        : 'text-white/90 hover:text-white hover:bg-white/10'
+                        ? "text-white bg-white/15"
+                        : "text-white/90 hover:text-white hover:bg-white/10"
                   }`}
                 >
                   {link.label}
@@ -97,7 +97,7 @@ export default function Header() {
             {/* Phone (desktop) */}
             <a
               href="tel:+21673320533"
-              className={`hidden xl:flex items-center gap-2 text-sm font-medium ${solid ? 'text-steel-700' : 'text-white/90'}`}
+              className={`hidden xl:flex items-center gap-2 text-sm font-medium ${solid ? "text-steel-700" : "text-white/90"}`}
             >
               <Phone className="w-4 h-4" />
               +216 73 320 533
@@ -108,7 +108,9 @@ export default function Header() {
               <button
                 onClick={() => setLangOpen(!langOpen)}
                 className={`flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
-                  solid ? 'text-steel-700 hover:bg-steel-100' : 'text-white/90 hover:bg-white/10'
+                  solid
+                    ? "text-steel-700 hover:bg-steel-100"
+                    : "text-white/90 hover:bg-white/10"
                 }`}
               >
                 <Globe className="w-4 h-4" />
@@ -116,8 +118,13 @@ export default function Header() {
               </button>
               {langOpen && (
                 <>
-                  <div className="fixed inset-0 z-10" onClick={() => setLangOpen(false)} />
-                  <div className={`absolute z-20 mt-2 ${dir === 'rtl' ? 'left-0' : 'right-0'} w-44 bg-white rounded-xl shadow-xl shadow-steel-900/10 border border-steel-100 py-2 animate-fade-in`}>
+                  <div
+                    className="fixed inset-0 z-10"
+                    onClick={() => setLangOpen(false)}
+                  />
+                  <div
+                    className={`absolute z-20 mt-2 ${dir === "rtl" ? "left-0" : "right-0"} w-44 bg-white rounded-xl shadow-xl shadow-steel-900/10 border border-steel-100 py-2 animate-fade-in`}
+                  >
                     {langs.map((l) => (
                       <button
                         key={l.code}
@@ -127,8 +134,8 @@ export default function Header() {
                         }}
                         className={`w-full flex items-center gap-3 px-4 py-2 text-sm transition-colors ${
                           lang === l.code
-                            ? 'text-primary-600 bg-primary-50 font-semibold'
-                            : 'text-steel-700 hover:bg-steel-50'
+                            ? "text-primary-600 bg-primary-50 font-semibold"
+                            : "text-steel-700 hover:bg-steel-50"
                         }`}
                       >
                         <span className="text-xs font-bold w-6 text-center rounded bg-steel-100 text-steel-600 py-0.5">
@@ -144,7 +151,7 @@ export default function Header() {
 
             {/* CTA (desktop) */}
             <button
-              onClick={() => navigate('/contact')}
+              onClick={() => navigate("/contact")}
               className="hidden lg:inline-flex items-center px-5 py-2.5 bg-accent-500 hover:bg-accent-600 text-white text-sm font-semibold rounded-lg transition-colors shadow-lg shadow-accent-500/30"
             >
               {t.nav.quote}
@@ -153,9 +160,13 @@ export default function Header() {
             {/* Mobile menu toggle */}
             <button
               onClick={() => setMenuOpen(!menuOpen)}
-              className={`lg:hidden p-2 rounded-lg ${solid ? 'text-steel-900' : 'text-white'}`}
+              className={`lg:hidden p-2 rounded-lg ${solid ? "text-steel-900" : "text-white"}`}
             >
-              {menuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+              {menuOpen ? (
+                <X className="w-6 h-6" />
+              ) : (
+                <Menu className="w-6 h-6" />
+              )}
             </button>
           </div>
         </div>
@@ -172,7 +183,9 @@ export default function Header() {
                   key={link.to}
                   to={link.to}
                   className={`block w-full text-start px-4 py-3 font-medium rounded-lg transition-colors ${
-                    active ? 'text-primary-600 bg-primary-50' : 'text-steel-700 hover:bg-primary-50 hover:text-primary-600'
+                    active
+                      ? "text-primary-600 bg-primary-50"
+                      : "text-steel-700 hover:bg-primary-50 hover:text-primary-600"
                   }`}
                 >
                   {link.label}
@@ -180,7 +193,7 @@ export default function Header() {
               );
             })}
             <button
-              onClick={() => navigate('/contact')}
+              onClick={() => navigate("/contact")}
               className="block w-full px-4 py-3 bg-accent-500 text-white font-semibold rounded-lg mt-2"
             >
               {t.nav.quote}
